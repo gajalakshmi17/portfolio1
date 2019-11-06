@@ -1,0 +1,263 @@
+
+
+
+
+*{
+        		margin: 0;
+        		padding: 0;
+        		-webkit-box-sizing: border-box;
+        		-moz-box-sizing: border-box;
+        		box-sizing: border-box;
+        		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        	}
+        	
+			    	.main{
+        		margin: 50px auto;
+        		width: 75%;
+        	}
+        	.progressBar{
+        		position: relative;
+        		width: 100%;
+        		height: 40px;
+				z-index:-1;
+        		background: #eeeeee;
+        		margin-bottom: 20px;
+        		border-radius: 5px;
+        		box-shadow: 0 1px 2px #222;
+        	}
+        	.title{
+        		position: absolute;
+        		width: 100px;
+        		height: 40px;
+        		padding-left: 10px;
+        		float: left;
+        		font-weight: bold;
+        		color: #fff;
+        		line-height: 2.5;
+        		z-index: 10000;
+        		border-top-left-radius: 5px;
+        		border-bottom-left-radius: 5px;
+        		box-shadow: 2px 0 2px #333;
+        		text-shadow: 1px 1px 1px #000;
+        	}
+        	.progress_value{
+        		position: relative;
+        		float: right;
+        		padding-right: 10px;
+        		line-height: 2.5;
+        		font-weight: bold;
+        		color: #455a64;
+        		z-index: 10000;
+        	}
+        	.progress{
+        		height: 40px;
+        		position: absolute;
+        		border-radius: 5px;
+        		box-shadow: 2px 0 2px #555;
+        	}
+        	.htmlColor{
+        		background: #b71c1c;
+        	}
+        	.cssColor{
+        		background: #4a148c;
+        	}
+        	.jsColor{
+        		background: #1a237e;
+        	}
+        	.reactColor{
+        		background: #1b5e20;
+        	}
+        	.mongoColor{
+        		background: #ff6f00;
+        	}
+			.nodeColor{
+        		background: deepskyblue;
+        	}
+        	.html{
+        		background: #ec407a;
+        	}
+        	.css{
+        		background: #ab47bc;
+        	}
+        	.js{
+        		background: #5c6bc0;
+        	}
+        	.react{
+        		background: #66bb6a;
+        	}
+        	.mongo{
+        		background: #ffca28;
+        	}
+			
+			.node{
+        		background: deepskyblue;
+        	}
+        	@media (max-width: 720px) {
+        		.main{
+        			width: 90%;
+        		}
+        	}
+			
+	
+.octo, .octo div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+.octo, .octo div {
+  width: 270px;
+  height: 270px;
+}
+.octo {
+  transform: rotate(45deg);
+}
+.octo1 {
+  transform: rotate(-45deg);
+}
+.resume {
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color:#f9f9f9;
+}	
+.resume h3 {
+	margin-bottom:50px;
+}
+.timeline {
+	list-style-type:none;
+	position:relative;
+}
+.timeline:before {
+	content: ' ';
+	background: #555;
+	display:inline-block;
+	position:absolute;
+	left:-2px;
+	width:2px;
+	height:100%;
+	z-index:1;
+	
+}
+.timeline li{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:20px;
+	background:#fff;
+}
+.timeline li h4{
+	background-color:#000;
+	padding:5px 0 5px 20px;
+	color:#fff;
+	font-size:15px;
+}
+.timeline li h4 span {
+	font-weight:bold;
+	color:#ccc;
+}
+.timeline li:before {
+	content:'';
+	background:#fff;
+	display:inline-block;
+	position:absolute;
+	border-radius:50%;
+	border:3px solid;
+	left:-9px;
+	width:20px;
+	height:20px;
+	z-index:1;
+}
+.user-info{
+	margin-top:50px;
+}
+
+.nav-bar .fa-bars {
+	font-size:35px;
+	color:#fff;
+}
+.navbar-toggler {
+	outline:none !important;
+}
+.navbar-nav {
+	float:right;
+	text-align:right;
+	
+}
+.nav-link {
+	color:#fff !important;
+}
+.navbar {
+	/*margin-top:130px;*/
+	background-color:#000;
+	}
+	.nav-bar {
+		top:0;
+		position:sticky;
+		z-index:2;
+	}
+.about {
+	padding-top:100px;
+	padding-bottom:50px;
+}
+.image {
+	height:350px;
+}
+.Contact {
+	padding-top:40px;
+	background-position:center;
+	color:white;
+	background-size:cover;
+	
+	background-attachment:fixed;
+	background:url(download.png);
+}
+.modal-title {
+	color:black;
+}
+.col-form-label {
+	float:left;
+	color:black;
+}
+.Contact .row {
+	padding:30px 0;
+	font-size:22px;
+}
+.Contact .col-md-4 .fa {
+	padding:10px;
+	font-size:40px;
+}
+.Contact .btn {
+	padding:10px 25px 10px 25px;
+	margin:5px;
+	border-radius:30px;
+	border:2px solid #fff;
+	background:transparent;
+}
+
+.modal-footer .btn {
+	padding:10px 15px 10px 25px;
+	margin:3px;
+	border-radius:30px;
+	color:black;
+	border:2px solid black;
+	
+}
+.modal-footer .btn:focus {
+	box-shadow:none !important;
+}
+.Contact .btn:focus{
+	box-shadow:none !important;
+}
+.modal-footer .btn:hover {
+	border:2px solid white!important;
+	color:white !important;
+	transition: 0.6s;
+}
+.Contact .btn:hover {
+	border:2px solid #000 !important;
+	background:#000 !important;
+	transition: 0.6s;
+}
+.Contact .btn .fa {
+	margin-right:10px;
+}
